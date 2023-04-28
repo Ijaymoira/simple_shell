@@ -16,7 +16,7 @@ clear_info(info);
 if (interactive(info))
 _puts("$ ");
 _eputchar(BUF_FLUSH);
-r = get_input(info);
+o = get_input(info);
 if (o != -1)
 {
 set_info(info, av);

@@ -16,7 +16,7 @@ if (!d)
 d = " ";
 for (i = 0; str[i] != '\0'; i++)
 if (!is_delim(str[i], d) && (is_delim(str[i + 1], d) || !str[i + 1]))
-numwords++;
+numword++;
 if (numword == 0)
 return (NULL);
 s = malloc((1 + numword) * sizeof(char *));
