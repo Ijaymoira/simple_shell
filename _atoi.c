@@ -21,7 +21,7 @@ while (*delim)
 if (*delim++ == c)
 return (1);
 return (0);
-9}
+}
 /**
  * _isalpha - checks for alphabetic character
  * @c: The character to input
